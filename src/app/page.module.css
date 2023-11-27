@@ -24,6 +24,12 @@
   margin-bottom: 3rem;
 }
 
+@media (max-width: 940px) {
+  .input {
+    min-width: 30rem;
+  }
+}
+
 .input:focus {
   transform: scaleX(1.1);
   outline: none;
